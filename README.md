@@ -1,12 +1,3 @@
-# SelfGNN: Self-Supervised Graph Neural Networks for Sequential Recommendation
-
-This is the Tensorflow implementation by <a href='https://github.com/LIU-YUXI'>@LIU-YUXI</a> for SelfGNN model proposed in this paper:
-
-> **Self-Supervised Graph Neural Networks for Sequential Recommendation**  
-> Yuxi Liu, Lianghao Xia, Chao Huang\* 
-> *SIGIR2024*
-
-\* denotes corresponding author
 
 <p align="center">
 <img src="./SA-GNN-framwork.jpg" alt="SA-GNN" />
@@ -71,41 +62,11 @@ You are welcome to modify the preprocessing code as needed to suit your data.
 
 You need to create the `./History/` and the `./Models/` directories. The command to train SA-GNN on the Gowalla/MovieLens/Amazon/Yelp dataset is as follows.
 
-- Gowalla
-
-```
-./gowalla.sh > ./gowalla.log 
-```
-
-- MovieLens
-
-```
-./movielens.sh > ./movielens.log 
-```
-
 - Amazon
 
 ```
 ./amazon.sh > ./amazon.log 
-```
 
-- Yelp
-
-```
-./yelp.sh > ./yelp.log
-```
-
-## 🌟 Citation
-
-If you find this work is helpful to your research, please consider citing our paper:
-
-```bibtex
-@article{liu2024selfgnn,
-  title={SelfGNN: Self-Supervised Graph Neural Networks for Sequential Recommendation},
-  author={Liu, Yuxi and Xia, Lianghao and Huang, Chao},
-  journal={arXiv preprint arXiv:2405.20878},
-  year={2024}
-}
 ```
 
 **Thanks for your interest in our work!**
